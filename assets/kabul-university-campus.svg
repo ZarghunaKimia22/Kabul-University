@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title description">
+    <title id="title">Kabul University campus illustration</title>
+    <desc id="description">A warm illustration of a university campus in Kabul with mountains, trees, and a central academic building.</desc>
+    <rect width="1200" height="675" fill="#d9ecf5"/>
+    <path d="M0 288 145 160l135 105 160-144 150 140 190-172 170 164 149-117v275H0z" fill="#97b8cb"/>
+    <path d="M0 342 180 220l170 113 149-114 156 105 164-133 167 125 214-139v321H0z" fill="#6f9bb2"/>
+    <rect y="442" width="1200" height="233" fill="#77a56e"/>
+    <path d="M0 539c198-47 357-16 520 17 184 37 424 23 680-45v164H0z" fill="#608e5b"/>
+    <path d="M493 390h214v151H493z" fill="#f4e6c2"/>
+    <path d="M470 397h260v23H470z" fill="#c99a4a"/>
+    <path d="M502 390 600 315l98 75z" fill="#0c3c78"/>
+    <rect x="584" y="447" width="33" height="94" fill="#7f5a3c"/>
+    <g fill="#4b7897">
+        <rect x="520" y="440" width="36" height="45"/><rect x="644" y="440" width="36" height="45"/>
+        <rect x="520" y="497" width="36" height="27"/><rect x="644" y="497" width="36" height="27"/>
+    </g>
+    <g>
+        <rect x="252" y="406" width="12" height="139" fill="#6f4a2e"/><circle cx="258" cy="385" r="62" fill="#477b52"/>
+        <rect x="889" y="399" width="13" height="145" fill="#6f4a2e"/><circle cx="895" cy="376" r="68" fill="#477b52"/>
+        <rect x="166" y="454" width="10" height="91" fill="#6f4a2e"/><circle cx="171" cy="439" r="45" fill="#528b59"/>
+        <rect x="1027" y="450" width="10" height="95" fill="#6f4a2e"/><circle cx="1032" cy="432" r="47" fill="#528b59"/>
+    </g>
+    <path d="M450 675c55-65 86-93 150-93s96 28 150 93z" fill="#dfc16f"/>
+    <path d="M576 315v-78h48v78" fill="#d6a743"/>
+    <path d="M560 237h80l-40-41z" fill="#0c3c78"/>
+    <text x="600" y="606" fill="#ffffff" font-family="Georgia, serif" font-size="30" text-anchor="middle">KABUL UNIVERSITY</text>
+</svg>

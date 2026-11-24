@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kabul University: advancing education, research, and community service in Kabul, Afghanistan.">
+    <title>Kabul University | Kabul, Afghanistan</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/services.js" defer></script>
+    
+</head>
+<body>
+    <!-- Header identifies the website and gives visitors primary navigation. -->
+    <header id="header">
+        <a href="#home" aria-label="Kabul University home">
+            <img src="assets/kabul-university-logo.svg" alt="Kabul University logo" width="72" height="72">
+            <span>Kabul University</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav id="primary-navigation" aria-label="Primary navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section introduces the university and provides a clear call to action. -->
+        <section id="home">
+            <p>Welcome to Kabul, Afghanistan</p>
+            <h1>Learn Today. Lead Tomorrow.</h1>
+            <p>Kabul University inspires students to create knowledge, serve their communities, and shape a stronger future.</p>
+            <p>
+                <a href="#programs">Explore Programs</a>
+                <a href="#contact">Contact Us</a>
+            </p>
+
+            <figure>
+                <img src="assets/kabul-university-campus.svg" alt="Illustration of Kabul University campus with a mountain backdrop" width="1200" height="675">
+                <figcaption>A place for knowledge, research, and community.</figcaption>
+            </figure>
+        </section>
+
+        <section id="gallery" class="gallery" aria-labelledby="gallery-heading">
+            <h2 id="gallery-heading">Campus Gallery</h2>
+            <div class="gallery-row">
+                <div class="gallery-col">
+                    <figure>
+                        <img src="assets/kabul-university-campus.svg" alt="Kabul University campus grounds with trees and mountains">
+                        <figcaption>Campus grounds</figcaption>
+                    </figure>
+                </div>
+                <div class="gallery-col">
+                    <figure>
+                        <img src="assets/kabul-university-campus.svg" alt="The central academic building at Kabul University">
+                        <figcaption>Academic building</figcaption>
+                    </figure>
+                </div>
+                <div class="gallery-col">
+                    <figure>
+                        <img src="assets/kabul-university-campus.svg" alt="Mountain backdrop surrounding Kabul University">
+                        <figcaption>Mountain backdrop</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section explains the university's identity, mission, and values. -->
+        <section id="about">
+            <h2>About Kabul University</h2>
+            <p>Kabul University is a public institution of higher education in Kabul, Afghanistan, dedicated to academic excellence, meaningful research, and public service.</p>
+
+            <article>
+                <h3>Our Mission</h3>
+                <p>To prepare capable graduates through quality education, research, and engagement with society.</p>
+            </article>
+
+            <article>
+                <h3>Our Vision</h3>
+                <p>To be a trusted center of learning and innovation that contributes to Afghanistan and the wider world.</p>
+            </article>
+        </section>
+
+        <!-- Highlights section presents important university facts at a glance. -->
+        <section id="highlights">
+            <h2>University Highlights</h2>
+            <dl>
+                <div>
+                    <dt>Location</dt>
+                    <dd>Kabul, Afghanistan</dd>
+                </div>
+                <div>
+                    <dt>Focus</dt>
+                    <dd>Education, research, and public service</dd>
+                </div>
+                <div>
+                    <dt>Community</dt>
+                    <dd>Students, faculty, researchers, and alumni</dd>
+                </div>
+            </dl>
+        </section>
+
+        <!-- Programs section introduces areas of study for prospective students. -->
+        <section id="programs">
+            <h2>Academic Programs</h2>
+            <p>Discover learning opportunities designed to develop knowledge, practical skills, and responsible leadership.</p>
+
+            <article>
+                <h3>Undergraduate Studies</h3>
+                <p>Build a strong academic foundation in a field that matches your interests and goals.</p>
+            </article>
+
+            <article>
+                <h3>Graduate Studies</h3>
+                <p>Advance your expertise through focused study, research, and professional development.</p>
+            </article>
+
+            <article>
+                <h3>Research and Innovation</h3>
+                <p>Work with faculty and peers on ideas that respond to local and global challenges.</p>
+            </article>
+        </section>
+
+        <!-- Services section lists support available to students and visitors. -->
+        <section id="services">
+            <h2>Student Services</h2>
+            <p class="section-intro">Find the resources and support you need to make the most of campus life.</p>
+            <div id="services-list" class="services-grid" aria-live="polite"></div>
+        </section>
+
+        <!-- Testimonials section shares voices from the university community. -->
+        <section id="testimonials">
+            <h2>What Our Community Says</h2>
+
+            <figure>
+                <blockquote>
+                    <p>Kabul University helped me grow in confidence and gave me the knowledge to work toward my goals.</p>
+                </blockquote>
+                <figcaption>A Kabul University Graduate</figcaption>
+            </figure>
+
+            <figure>
+                <blockquote>
+                    <p>The learning environment encouraged me to ask questions, collaborate, and see new possibilities.</p>
+                </blockquote>
+                <figcaption>A Current Student</figcaption>
+            </figure>
+        </section>
+
+        <!-- Contact section provides an accessible form for enquiries. -->
+        <section id="contact">
+            <h2>Contact Kabul University</h2>
+            <p>Send us a message and our team will respond as soon as possible.</p>
+
+            <address>
+                Kabul University<br>
+                Kabul, Afghanistan
+            </address>
+
+            <form action="#" method="post">
+                <div>
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" autocomplete="name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </div>
+
+                <div>
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer contains secondary navigation and copyright information. -->
+    <footer id="footer">
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 Kabul University. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title description">
+    <title id="title">Kabul University logo</title>
+    <desc id="description">A blue and gold academic crest with the letters KU.</desc>
+    <circle cx="120" cy="120" r="112" fill="#0c3c78"/>
+    <circle cx="120" cy="120" r="96" fill="none" stroke="#d6a743" stroke-width="8"/>
+    <path d="M44 101 120 58l76 43-76 43z" fill="#d6a743"/>
+    <path d="M63 112v49c0 23 114 23 114 0v-49l-57 32z" fill="#f6e7bd"/>
+    <path d="M120 70v64" stroke="#0c3c78" stroke-width="6"/>
+    <text x="120" y="177" fill="#0c3c78" font-family="Georgia, serif" font-size="45" font-weight="bold" text-anchor="middle">KU</text>
+    <text x="120" y="211" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" letter-spacing="2" text-anchor="middle">KABUL</text>
+</svg>
